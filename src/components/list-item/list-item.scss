@@ -1,0 +1,11 @@
+cookie-list-item > div {
+  display: list-item;
+}
+
+cookie-list-item + cookie-list-item div {
+  margin-top: 1.5rem;
+
+  @media (max-width: $large-breakpoint) {
+    margin-top: 1rem;
+  }
+}

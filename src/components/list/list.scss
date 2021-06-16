@@ -1,6 +1,7 @@
 cookie-list > div {
   font-size: 2rem;
   padding-left: 2rem;
+  list-style: disc;
 
   @media (max-width: $large-breakpoint) {
     font-size: 1.5rem;
