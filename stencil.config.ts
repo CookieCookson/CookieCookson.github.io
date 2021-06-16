@@ -16,6 +16,11 @@ export const config: Config = {
       baseUrl: 'https://www.cookie.dev/',
       prerenderConfig: './prerender.config.ts',
       serviceWorker: null,
+      copy: [
+        {
+          src: 'CNAME',
+        },
+      ],
     },
   ],
 };
