@@ -1,0 +1,7 @@
+cookie-paragraph p {
+  font-size: 2rem;
+
+  @media (max-width: $large-breakpoint) {
+    font-size: 1.5rem;
+  }
+}

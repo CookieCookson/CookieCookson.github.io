@@ -1,0 +1,67 @@
+cookie-logo a {
+  margin: 0 auto;
+  width: 20rem;
+  height: 17.5rem; // *0.875
+  position: relative;
+  display: grid;
+  place-content: center;
+  justify-content: stretch;
+  text-decoration: none;
+  color: inherit;
+
+  @media (max-width: $large-breakpoint) {
+    width: 15rem;
+    height: 13.125rem; // *0.875
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: black;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    transition: clip-path 100ms;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: white;
+    clip-path: polygon(50% 7%, 95% 97%, 5% 97%);
+    transition: clip-path 100ms;
+  }
+
+  &:hover::before,
+  &:focus::before {
+    background: white;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+
+  &:hover::after,
+  &:focus::after {
+    background: $gold;
+    clip-path: polygon(50% 97%, 5% 3%, 95% 3%);
+  }
+}
+
+cookie-logo h1 {
+  margin-top: 0;
+  z-index: 1;
+  background: white;
+  width: 100%;
+  display: block;
+  line-height: 200%;
+  font-size: 3rem;
+  text-align: center;
+
+  @media (max-width: $large-breakpoint) {
+    font-size: 2rem;
+  }
+}
+
+cookie-logo a:hover h1,
+cookie-logo a:focus h1 {
+  background: black;
+  color: white;
+}

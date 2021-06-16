@@ -1,0 +1,25 @@
+cookie-section section {
+  --background-color: white;
+  --text-color: black;
+  --link-color: #{$magenta};
+
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  padding-inline: 2rem;
+
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+cookie-section:nth-of-type(even) section {
+  --background-color: black;
+  --text-color: white;
+  --link-color: #{$gold};
+}
+
+cookie-section .content {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}

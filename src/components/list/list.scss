@@ -1,0 +1,17 @@
+cookie-list ul {
+  font-size: 2rem;
+  padding-left: 2rem;
+
+  @media (max-width: $large-breakpoint) {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  cookie-list-item + cookie-list-item {
+    margin-top: 1.5rem;
+
+    @media (max-width: $large-breakpoint) {
+      margin-top: 1rem;
+    }
+  }
+}
