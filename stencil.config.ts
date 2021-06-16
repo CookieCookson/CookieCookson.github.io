@@ -15,7 +15,7 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: 'https://www.cookie.dev/',
+      baseUrl: 'https://cookie.dev/',
       prerenderConfig: './prerender.config.ts',
       serviceWorker: null,
       copy: [
