@@ -16,9 +16,7 @@
   },
   "devDependencies": {
     "@stencil/core": "^2.0.1",
-    "@stencil/sass": "^1.4.1"
-  },
-  "dependencies": {
-    "ionicons": "^5.5.1"
+    "@stencil/sass": "^1.4.1",
+    "stencil-inline-svg": "^1.1.0"
   }
 }

@@ -1,5 +1,4 @@
 import { Component, h } from '@stencil/core';
-import 'ionicons';
 
 @Component({
   tag: 'app-root',
@@ -48,9 +47,9 @@ export class AppRoot {
             You can reach me at <cookie-link url="mailto:me@cookie.dev">me@cookie.dev</cookie-link>.
           </cookie-paragraph>
           <cookie-icon-list>
-            <cookie-icon-list-item url="https://github.com/CookieCookson" accessible-label="GitHub" icon="logo-github"></cookie-icon-list-item>
-            <cookie-icon-list-item url="https://twitter.com/Cookie_Cookson" accessible-label="Twitter" icon="logo-twitter"></cookie-icon-list-item>
-            <cookie-icon-list-item url="https://linkedin.com/in/cookchristian" accessible-label="LinkedIn" icon="logo-linkedin"></cookie-icon-list-item>
+            <cookie-icon-list-item url="https://github.com/CookieCookson" accessible-label="GitHub" icon="github"></cookie-icon-list-item>
+            <cookie-icon-list-item url="https://twitter.com/Cookie_Cookson" accessible-label="Twitter" icon="twitter"></cookie-icon-list-item>
+            <cookie-icon-list-item url="https://linkedin.com/in/cookchristian" accessible-label="LinkedIn" icon="linkedin"></cookie-icon-list-item>
           </cookie-icon-list>
         </cookie-section>
       </main>

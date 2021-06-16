@@ -1,7 +1,8 @@
-cookie-icon-list-item ion-icon {
-  font-size: 3rem;
+cookie-icon-list-item svg {
+  width: 3rem;
+  fill: currentColor;
 
   @media (max-width: $large-breakpoint) {
-    font-size: 2rem;
+    width: 2rem;
   }
 }
