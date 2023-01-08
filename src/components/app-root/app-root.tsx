@@ -14,8 +14,8 @@ export class AppRoot {
         <cookie-section id="about">
           <cookie-heading>About</cookie-heading>
           <cookie-paragraph>
-            Hey 👋, I'm Christian Cook - a front end engineer working at <cookie-link url="https://www.spongelearning.com">Sponge</cookie-link>. I really enjoy building intricate
-            web components which are accessible and versatile, and love learning about developing design systems.
+            Hey 👋, I'm Christian Cook - a front end engineer working at <cookie-link url="https://www.spongelearning.com">Sponge</cookie-link>. I really enjoy building 
+            web components which are accessible and versatile, and have a keen interest in building design systems.
           </cookie-paragraph>
         </cookie-section>
         <cookie-section>
@@ -23,9 +23,15 @@ export class AppRoot {
           <cookie-list>
             <cookie-list-item>
               <cookie-link url="https://www.xapijs.dev" external={true}>
-                xAPI.js
+                xAPI.js: xAPI Wrapper Library
               </cookie-link>
               - a JavaScript library for elearning developers to communicate over the xAPI specification.
+            </cookie-list-item>
+            <cookie-list-item>
+              <cookie-link url="https://www.xapijs.dev/cmi5-profile-library/introduction" external={true}>
+                xAPI.js: cmi5 Profile Library
+              </cookie-link>
+              - a JavaScript library for elearning developers to communicate over the cmi5 specification.
             </cookie-list-item>
             <cookie-list-item>
               <cookie-link url="https://codepen.io/cookiecookson/pen/KKMMYjJ" external={true}>
