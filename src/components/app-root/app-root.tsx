@@ -14,8 +14,10 @@ export class AppRoot {
         <cookie-section id="about">
           <cookie-heading>About</cookie-heading>
           <cookie-paragraph>
-            Hey 👋, I'm Christian Cook - a front end engineer working at <cookie-link url="https://www.spongelearning.com">Sponge</cookie-link>. I really enjoy building 
-            web components which are accessible and versatile, and have a keen interest in building design systems.
+            Hey 👋, I'm Christian Cook - a front end engineer based in Plymouth, UK and working at <cookie-link url="https://www.buzzinteractive.co.uk">Buzz Interactive</cookie-link>.
+          </cookie-paragraph>
+          <cookie-paragraph>
+            I'm a co-organiser of <cookie-link url="ttps://meetu.ps/c/1XYGR/l7SKC/d">Plymouth Web</cookie-link>, a monthly meetup centered around web design and development.
           </cookie-paragraph>
         </cookie-section>
         <cookie-section>
